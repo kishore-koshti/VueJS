@@ -1,0 +1,4 @@
+
+here we are using if condition to show and hide span.
+
+I have set the seen value to false hence span is not visible.
