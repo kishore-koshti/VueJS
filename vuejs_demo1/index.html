@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  </head>
+  <body>
+    <div id="root">
+      <span v-if="seen"> {{ message }}</span>
+    </div>
+    <script>
+      var root = new Vue({
+        el: "#root",
+        data: { message: "Hello Kishor", seen: false },
+      });
+      root.message = "Hello Kishor Welcome Back";
+    </script>
+  </body>
+</html>
